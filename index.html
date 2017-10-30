@@ -1,3 +1,66 @@
 <html>
-Hello World
+<head>
+<title> PMAW: The Programming Models and Algorithms Workshop </title>
+</head>
+<body>
+
+<p>
+Programming models are widespread, and have gained vast popularity due to a
+variety of optimization mechanisms and abstractions, their transparency and
+other runtime features. Examples of these features are automatic accelerator
+offloading, directive-based compiler optimizations and parallelization,
+integration into high-level program- ming languages locality enhancements, work
+stealing and pushing, overlapping communication and computation, pro- viding a
+wide range of dynamic scheduling techniques, scaling and enabling the execution
+of large scale applications for distributed computing, leveraging and exposing
+interfaces that enable a fine grained control of underlying computing and
+network hardware, among many other features. Despite this long list of major
+advancements, there still exist a wide gap between the algorithmic design,
+specification and implementation and these programming models.
+</p>
+
+<p>
+To exacerbate the problem at hand, it is widely known that to achieve the
+expected levels of performance and power cap of Exascale and future computing
+eras, tremendous efforts will have to be invested and will require the
+convergence of sev- eral traditionally disjoint fields [11], [14], [3].
+Programming models excel at raising the level of abstraction from a concrete
+target platform, architecture or even the underlying network. In other words,
+their primary role is to hide the complexities of some lower level of the
+hardware and software stack, thereby greatly simplifying and speeding the
+development process of scientific software
+</p>
+
+<p>
+Complicating even more the matter, new technologies such as upcoming
+programming models and parallel runtimes are not fully exploited. To a large
+extent, this is caused by the unfamiliarity of domain experts and computational
+scientists with new runtimes and software developments, or conversely, because
+of the lack of knowledge of the runtime or compiler expert with the fundamental
+properties of a computational algorithm. Moreover, simple mechanical porting of
+traditional and classic algorithms, many of which were devised 40 or more years
+ago, considered much more generic and abstract models such as the P-RAM model,
+the Bulk-Synchronous Parallel (BSP) model, LogP, or even
+the traditional von Neumann model. More precisely, this process has been
+target agnostic, and did not envision any specific hardware or runtime. This
+approach often results in suboptimal performance, loses important information
+in translation or incorrectly exploits the algorithmic intrinsics.
+</p>
+
+<p>
+The following non-exhaustive list of topics are some exam- ples of the subjects that will be targeted.
+<ul>
+  <li>Implementation of algorithms using data-flow models and runtimes</li>
+  <li>Domain specific languages, compilers and tools for data- flow, data and task parallelism</li>
+  <li>New parallel runtime features that facilitate algorithmic description</li>
+  <li>Rethinking of classical algorithms that incorporate paral- lelism, energy and other performance properties</li>
+  <li>Communication minimization schemes</li>
+  <li>Network aware computing</li>
+  <li>Locality and Communication abstractions for algorithmic specification</li>
+  <li>Orchestrating runtimes and heterogeneous runtime scheduling</li>
+  <li>Experiences in porting or implementing scientific frameworks over one or more programming models</li>
+  <li>Application and runtime demos</li>
+</ul>
+</p>
+</body>
 </html>
